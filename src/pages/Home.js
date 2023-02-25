@@ -5,23 +5,23 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
+
   const [roomId, setRoomId] = useState("");
   const [username, setUsername] = useState("");
-
   const createNewRoom = (e) => {
     e.preventDefault();
     const id = uuidV4();
     setRoomId(id);
-    toast.success("Created a new Room");
+    toast.success("Created a new room");
   };
 
   const joinRoom = () => {
     if (!roomId || !username) {
-      toast.error("Room Id & username is required");
+      toast.error("ROOM ID & username is required");
       return;
     }
 
-    // redirect
+    // Redirect
     navigate(`/editor/${roomId}`, {
       state: {
         username,
@@ -34,16 +34,15 @@ const Home = () => {
       joinRoom();
     }
   };
-
   return (
     <div className="homePageWrapper">
       <div className="formWrapper">
         <img
-          className="homePageLogo "
-          src="/code-editor.png"
-          alt="code-editor.png"
+          className="homePageLogo"
+          src="/code-sync.png"
+          alt="code-sync-logo"
         />
-        <h4 className="mainLabel">Paste Invitation Room Id</h4>
+        <h4 className="mainLabel">Paste invitation ROOM ID</h4>
         <div className="inputGroup">
           <input
             type="text"
@@ -65,17 +64,17 @@ const Home = () => {
             Join
           </button>
           <span className="createInfo">
-            If you don't have an Invite then create &nbsp;
-            <a onClick={createNewRoom} href="" className="createNewButton">
-              New Room
+            If you don't have an invite then create &nbsp;
+            <a onClick={createNewRoom} href="" className="createNewBtn">
+              new room
             </a>
           </span>
         </div>
       </div>
       <footer>
         <h4>
-          Built with 💚&nbsp; by{" "}
-          <a href="https://github.com/pradyumantomar"> Pradyuman</a>
+          Built with 💛 &nbsp; by &nbsp;
+          <a href="https://github.com/codersgyan">Coder's Gyan</a>
         </h4>
       </footer>
     </div>

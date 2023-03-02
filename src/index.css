@@ -1,11 +1,24 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+  url('./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format("truetype");
+  font-weight:300;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Montserrat';
+  /* font-family: 'Montserrat',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #1c1e29;
+/* background-color: #0d0d0e; */
+opacity: 0.8;
+background-image:  radial-gradient(#1b614f 0.5px, transparent 0.5px), radial-gradient(#1b614f 0.5px,#30323c 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
 }
+
 

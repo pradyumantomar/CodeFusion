@@ -11,10 +11,11 @@ function App() {
         <Toaster
           position="top-right"
           toastOptions={{
-            success: {
-              theme: {
-                primary: "#4aed88",
-              },
+            style: {
+              fontWeight: "bold",
+              border: "2px solid black",
+              padding: "16px",
+              color: "black",
             },
           }}
         ></Toaster>

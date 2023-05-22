@@ -1,6 +1,6 @@
 # CodeFusion v1.0.0
 
-**_CodeFusion_**
+**_CodeFusion_** : 
 A real-time collaborative code editor have features such as real-time code syncing, highlighting changes made by other users & pasting functionality . It have efficient database schemas and queries by using Socket.Io to store & manage user sessions and data with optimized performance by implementing caching strategies and reduced latency in data syncing &
 communication between users.
 

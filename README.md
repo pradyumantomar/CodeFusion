@@ -1,10 +1,16 @@
 # CodeFusion v1.0.0
 
-### [Main][MainURL] [Blog][BlogURL] [Support][SupportURL] [Demo][DemoURL]
+**_CodeFusion_**
+A real-time collaborative code editor have features such as real-time code syncing, highlighting changes made by other users & pasting functionality . It have efficient database schemas and queries by using Socket.Io to store & manage user sessions and data with optimized performance by implementing caching strategies and reduced latency in data syncing &
+communication between users.
 
 [![image](https://www.linkpicture.com/q/CodeFusion-v1.png)](https://www.linkpicture.com/view.php?img=LPic646baa5379b63510469680)
 
-https://realtime-editor-8loq.onrender.com/
+### [Main][MainURL]
+
+[MainURL]: https://realtime-editor-8loq.onrender.com/ "Main"
+
+[![image](https://www.linkpicture.com/q/CodeFusion-v2.png)](https://www.linkpicture.com/view.php?img=LPic646baf2a4f59f2126884860)
 
 # Getting Started with Create React App
 
